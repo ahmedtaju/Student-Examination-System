@@ -283,13 +283,13 @@ void registerExaminee() {
 
 void takeTest(const string &username) {
     if (validateUsername(username) && students.find(username) != students.end()) {
-        // Implement logic to take the test
+        
         Student &student = students[username];
         if (student.exam.questions.empty()) {
             cout << "No questions available for the test.\n";
         } else {
             cout << "Taking the test for student " << username << ".\n";
-            // Implement the logic to record student answers
+           
             for (int i = 0; i < student.exam.questions.size(); ++i) {
                 cout << "Question " << i + 1 << ": " << student.exam.questions[i].question << "\n";
 
@@ -328,7 +328,7 @@ void seeAnswerOfPreviousExams() {
 
     if (validateUsername(username) && students.find(username) != students.end()) {
         Student &student = students[username];
-        // Implement logic to see answers of previous exams
+      
         if (student.exam.studentAnswers.empty()) {
             cout << "No previous exam answers found for student " << username << ".\n";
         } else {
