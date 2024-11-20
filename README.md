@@ -45,7 +45,6 @@ This **Exam Management System** is a simple C++ console application designed to 
    ```bash
    ./exam_system
    ```
-
 ---
 
 ## User Guide
@@ -78,7 +77,6 @@ This **Exam Management System** is a simple C++ console application designed to 
 - Add more detailed analytics for results.
 
 ---
-
 ## Contributing
 Feel free to fork this project and make contributions. Submit pull requests for improvements or new features.
 
